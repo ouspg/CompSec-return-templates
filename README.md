@@ -44,7 +44,7 @@ git commit -m "<message>"
 git push
 ```
 
-If you haven't edited markdown files alot [Visual studio code](https://code.visualstudio.com/) is a good free software for it. It works on Windows, Linux and Mac. It is also installed to most of the virtual machines.
+If you haven't edited markdown files alot [Visual studio code](https://code.visualstudio.com/) is a good free software for it. It works on Windows, Linux and Mac. It is also installed to most of the virtual machines. For help with markdown syntax check [Example.md](Example.md)
 ## When to proceed?
 
 There is a deadline for each lab.
