@@ -42,8 +42,9 @@ Paste the code you used here. You only need to paste the asm volatile() blocks
 ### Breaking AES
 
 Explain shortly how the correlation power analysis works.
+```
 *insert explanation here*
-
+```
 *Insert picture of the Output vs Point plot tab below*
 ![](pathtopicture "Ouput vs Point plot")
 
@@ -54,6 +55,8 @@ Explain shortly how the correlation power analysis works.
 ```
 Paste PASSWORD_BYPASS.py here
 ```
+
+Screenshot of the python console after the script has correctly guessed the password
 
 ![ ](images/ChipWhispererplaceholder2.png  "Screenshot of the python console after the script has correctly guessed the password")
 
