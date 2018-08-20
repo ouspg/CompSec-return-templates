@@ -1,67 +1,119 @@
-# Answer template for Lab 5: Shellcoding
+# ChipWhisperer lab return template 
 
-Make a step-by-step report from what you did. (What, why and how?)
-You can use screenshots, code snippets and anything, what Markdown enables you to use. Answer at least for the questions presented in each section.
-They should be same than in actual instructions.
+Name ``` ```
 
-You can add source files to [src](src) folder and screenshots to [img](img) folder.
+Student id ``` ```
 
-**Answer to this document, and push changes to Git!**
+Participated in tasks ``` ```
 
-## Task 1 : Basics of buffer overflows
+...
 
-### A) Creating a program with improper input validation and analyzing overflow
+Name ``` ```
 
-* What is the role of the rip register and ret instruction?
+Student id ``` ```
 
-* Add source file of your vulnerable program to [src](src) folder.
+Participated in tasks ``` ```
 
-* What is causing the buffer overflow?
+Add all your group members names and student ids. If you continue the tasks at home you can work with different people. Please mark who participated in which tasks.
 
-* Provide a screenshot and command of situation, where you managed to reach instruction pointer register.
+# Task 1
+### Inspecting power differences of operations
 
-### B) Adding hidden (non-used) function to previous program. (And still executing it)
+Replace the following 3 screenshots. First screenshot should contain a picture of a power trace where you are executing nothing but 30 lines of of asm mul.
+Second should contain a screenshot of a power trace where you execute nothing but 30 lines of asm nop.
+Third should contain a power trace where you execute any amount of nops or muls. You need to execute atleast 10 lines worth of each command and in total atleast 40 lines worth of assembly code. You are not required to execute the commands in 10 line chuncks and you are allowed to execute other assembly commands besides nop and mul.  
 
-* You can add function to the source file you previously created here, or just show it as code snippet.
+Please have your screenshots roughly in the same scale as the placeholders. If your whole trace doesn't fit to that scale then you are allowed to take a larger picture.
+X: ~800-1000 samples Y: ~0,3- -0,3
 
-* Describe to location of newly added function memory address.
+#### Three blocks of asm mul operations
+![](images/esimerkkilab2.png  "Trace with 30 muls")
+#### Three blocks of asm nop operation
+![](images/esimerkkilab2.png  "Trace with 30 nops")
+#### Trace with ?????
+![](images/esimerkkilab2.png  "Your custom trace")
 
-* How did you execute function by just overflowing the input?
+```
+Explain what commands are executing and where.
+```
+```
+Paste the code you used here. You only need to paste the asm volatile() blocks
+```
+
+### Breaking AES
+
+Explain shortly how the correlation power analysis works.
+```
+*insert explanation here*
+```
+*Insert picture of the Output vs Point plot tab below*
+![](images/ChipWhispererplaceholder2.png "Ouput vs Point plot")
+
+# Task 2
+
+### Password bypass with power analysis
+
+```
+Paste PASSWORD_BYPASS.py here
+```
+
+Screenshot of the python console after the script has correctly guessed the password
+
+![ ](images/ChipWhispererplaceholder2.png  "Screenshot of the python console after the script has correctly guessed the password")
+
+### Breaking RSA
+
+Paste screenshot of the Difference plot here
+![ ](images/ChipWhispererplaceholder2.png  "Difference plot here")
+
+__Where did you take the reference sample and why?__
+
+```
+
+```
+
+__What values did you use in the attack script?__
+```
+
+```
+```
+Paste attack script here
+```
+Can your program solve key ABE3 for corresponding trace? If not, tell why it does not work. How you could fix that?
+
+```
+
+```
+
+# Task 3
+## Glitch
+
+**Paste the screenshot from step 7 here**
+
+![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
+
+**Paste the screenshot from step 13 here**
+
+![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
+
+**Paste the screenshot from step 17 here**
+
+![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
+
+**Paste the screenshot of Glitch Explorer showing succesful password glitch**
+
+![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
+
+```python
+Paste your script that modfies the glitch parameters
+```
+```python
+Paste your setup script
+```
+**Paste your Glitch Explorer logs to logs folder**
 
 
-## Task 2 : Arbitary code execution
 
-### A) Making a simple program to open Shell.
+# Task 4
 
-* Add source file of your program to [src](src) folder.
-
-## B) Transforming functionality to machine instructions
-
-* Add source file of your assembly program to [src](src) folder.
-* Describe each line of assembly code. You can make this by adding comments to source.
-* Does x86 instruction set has advantages over x64 in some cases?
-* Describe how did you turn your assembly code to shellcode, and the results of it. Provide screenshot of situation, where you tested the execution of it.
-
-### C) Making the final payload and executing it
-
-How did I find the required information to open shell by overflowing input?
-
-Make a step-by-step report (what, why and how), including command line commands you used to success of executing arbitary code on vulnerable program,by finally opening local shell outside of GDB.
-Include a screenshot of the final situation, when you were able to open shell.
-
-## Task 3 : Defeating No-eXecute
-
-### A) Return-to-libc (aka ret2libc)
-
-> ***In this task, you should make example implementation of this ret2libc method. It could be for example spawning local shell. This time, **do not** disable NX protection (do not use -z execstack flag in compiler). Disabling other protections is still required. Like previously, make step by step report(what, why, how) including source files and command line commands which lead you to get shell access.***
-
-
-### B) Return-oriented programming (aka ROP)
-
-> ***Try to get previously mentioned example (ROP_hello) to work by yourself. Next, make simple example implementation of ROP technique.***
-
-> ***Example: This could be spawning a local shell. To not make it same as ret2libc method, print some text before spawning shell, and print also something after exiting the shell. In this way we can apply some ROP - chain.***
-
-## Task 4 : A bit more advanced ROP implementation
-
-> Implement **one** of the described tasks, and make step-by-step report (what,why and how) for what you did.
+This tasks documentation varies depending on which versio you chose. Create your own documentation as you see fit. List here all the files that are part of your return
