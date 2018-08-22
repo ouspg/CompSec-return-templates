@@ -33,8 +33,9 @@ X: ~800-1000 samples Y: ~0,3- -0,3
 #### Trace with ?????
 ![](images/esimerkkilab2.png  "Your custom trace")
 
-*Explain what is happening and where*
-
+```
+Explain what commands are executing and where.
+```
 ```
 Paste the code you used here. You only need to paste the asm volatile() blocks
 ```
@@ -42,10 +43,11 @@ Paste the code you used here. You only need to paste the asm volatile() blocks
 ### Breaking AES
 
 Explain shortly how the correlation power analysis works.
+```
 *insert explanation here*
-
+```
 *Insert picture of the Output vs Point plot tab below*
-![](pathtopicture "Ouput vs Point plot")
+![](images/ChipWhispererplaceholder2.png "Ouput vs Point plot")
 
 # Task 2
 
@@ -55,12 +57,14 @@ Explain shortly how the correlation power analysis works.
 Paste PASSWORD_BYPASS.py here
 ```
 
+Screenshot of the python console after the script has correctly guessed the password
+
 ![ ](images/ChipWhispererplaceholder2.png  "Screenshot of the python console after the script has correctly guessed the password")
 
 ### Breaking RSA
 
 Paste screenshot of the Difference plot here
-![ ](path to picture  "Difference plot here")
+![ ](images/ChipWhispererplaceholder2.png  "Difference plot here")
 
 __Where did you take the reference sample and why?__
 
@@ -82,7 +86,8 @@ Can your program solve key ABE3 for corresponding trace? If not, tell why it doe
 ```
 
 # Task 3
-##Glitch
+## Glitch
+
 **Paste the screenshot from step 7 here**
 
 ![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")

@@ -6,7 +6,7 @@
 
 ## Instructions
 
-Below is a copy of the questions found in the Lab1_Network folder. Answer the questions here. In task 4 put the server code and the XSS-script to a different file. Also the picture and the report in task 5 can be returned as a separe files. 
+Below is a copy of the questions found in the Network lab folder. Answer the questions here. In task 4 put the server code and the XSS-script to a different file. Also the picture and the report in task 5 can be returned as a separe files. 
 
 
 ### A) Basic SQL Injections
@@ -18,7 +18,7 @@ What command(s) did you use?
 ``` sql
 
 ```
- What these SQL characters you used for injecting, are actually doing? (Explain each command/symbol you used, and why it is working)?
+Explain each command/symbol you used.  Why do they cause an error?
 ```sql
 
 ```

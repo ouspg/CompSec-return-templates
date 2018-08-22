@@ -11,6 +11,8 @@ You will update and add all of your work here during the course.
 
 *Excluding* (Do not return) possible lecture tasks/diary here, in case you are doing those. These will be returned directly to [Moodle](https://oystack.oulu.fi).
 
+
+
 ## How to proceed?
 
 For each lab, you have to choose:
@@ -34,6 +36,15 @@ It is recommended to do as described above, but it is not required (= you can ad
 
 *If you are doing lecture tasks/diary instead of corresponding lab, return it directly to Moodle.*
 
+
+Check [cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) if you need a refresher on how to use Git. Some basic commands below  
+```git
+git add </path/filename>
+git commit -m "<message>"
+git push
+```
+
+If you haven't edited markdown files alot [Visual studio code](https://code.visualstudio.com/) is a good free software for it. It works on Windows, Linux and Mac. It is also installed to most of the virtual machines. For help with markdown syntax check [Example.md](Example.md)
 ## When to proceed?
 
 There is a deadline for each lab.
