@@ -1,7 +1,9 @@
 # Answer template for Lab 4: Shellcoding
 
 Make a step-by-step report from what you did. (What, why and how?)
-You can use screenshots, code snippets and anything, what Markdown enables you to use. Answer at least for the questions presented in each section.
+You can use screenshots, code snippets and anything, what Markdown enables you to use. 
+
+Answer at least for the questions presented here in each section.
 They should be same than in actual instructions, but bit more precise.
 
 You can add source files to [src](src) folder and screenshots to [img](img) folder. Source files can be shown alternatively just as code snippets.
@@ -14,9 +16,9 @@ You have to create src folder by yourself.
 
 ## Task 1 : Basics of buffer overflows
 
-### A) Creating a program with improper input validation and analyzing overflow
+### A) Using program with improper input validation and analyzing overflow
 
-* What is the role of the rip register and ret instruction?
+* What is the role of the rip (instruction pointer) register and ret instruction?
 
 * Mention if you used the example program. If you did not, paste the code
 
@@ -73,14 +75,15 @@ You have to create src folder by yourself.
     ```
 * Describe each line(purpose) of assembly code. You can make this by adding comments to source.
 * Does x86 instruction set has advantages over x64 in some cases?
-* Describe how did you turn your assembly code to shellcode, and the results of it. Provide screenshot of situation, where you tested the execution of it, and it worked.
+* Describe how did you turn your assembly code to shellcode
+* Add the results of it by showing shellcode and provide screenshot of situation, where you tested the execution of it, and it worked.
 
     ```shell
     My shellcode
     ```
-    My image:
+    My screenshot:
 
-    ![Big overflow](img/placeholder.png "Big overflow" )
+     ![Big overflow](img/placeholder.png "Big overflow" )
 
 ### C) Making the final payload and executing it
 

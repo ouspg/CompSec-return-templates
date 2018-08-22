@@ -18,6 +18,11 @@ You have to create these by yourself.
 
  * How did you proceed?
  * Show all possible commands you used
+ 
+  ```shell
+  You can insert commands like this.
+  ```
+
  * Explain the purposes of all commands in this task
  * Explain theory, what is the logic behind commands possible combination of them (=why did you choose them in the first hand?)
 
@@ -60,8 +65,11 @@ You have to create these by yourself.
 ### C) Inspecting the server (Command & Control center)
 
 * What exact information bot got from the server?
-* Add your suitable client for receiving data into *src* folder.
-* Provide screenshot, when it is receiving data. You can put it in *img* folder.
+* You can give code here or additionally put it into *src* folder.
+```python
+You can insert your code here
+```
+* Provide screenshot, when it is receiving data. You can put it in *img* folder and reference here.
 
 ## Task 3: Malware - static analysis
 
