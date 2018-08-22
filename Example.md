@@ -13,6 +13,8 @@ It is not necessary to reference images or code snippets in text, but it helps t
 ### Images
 You can place all images to 'images' folder. Then reference there like in examples Task 1 and Task 2 here.
 
+You can take screenshot of current active window by pressing **Alt + PrintScreen button** 
+
 ### Sources
 If you want to place pure source codes for tasks, you can put them to 'src' folder, and reference straight to file like [this.](src/hello.py)
 

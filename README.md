@@ -1,5 +1,12 @@
 # Your place for returning lab exercises/assignmets and final coursework
 
+Student name:
+
+Student ID:
+
+*Give at least above information to this file. You can remove all below if you like, and add some own general instructions/information if you like.*
+
+
 
 ## What is this repository for?
 
@@ -74,4 +81,4 @@ If you forgot to return link to Moodle before deadline, but your work is here be
 
 There will be sixth (6th) lab, which is meant for improving/doing missing labs. You can imporove as many labs as you want before deadline of that sixth (6th) lab.
 
-Return link to this repository once again, and say what have you done/improved.
+Return link of this repository once again to Moodle, and say what have you done/improved.

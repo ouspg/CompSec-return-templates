@@ -10,14 +10,16 @@ You have to create these by yourself.
 
 *You can remove questions and just leave task numbers/letters if you want.*
 
+**Answer to this document, and push changes to Git!**
+
 ## Task 1: Finding traces of DDoS attack
 
 ### A) At what time (in which second) there were the most requests for server? How many requests there were in that moment?
 
  * How did you proceed?
  * Show all possible commands you used
- * Explain all the commands
- * Explain theory, what is the logic behind commands(=why did you choose them in the first hand?)
+ * Explain the purposes of all commands in this task
+ * Explain theory, what is the logic behind commands possible combination of them (=why did you choose them in the first hand?)
 
 ### B) How servers were actually loaded/burdened? There were multiple requests for server at same time of course, but some weakness of service was also exploited. Requests had some specific functionality.
 
@@ -32,7 +34,7 @@ You have to create these by yourself.
 ### D) What IP address(es) hypotetically points towards controller of botnet itself?
 
 * What IP addresses(es)?
-* Why did you think, that they might belong to attacker?
+* Why did you think that they might belong to attacker?
 
 ## Task 2: Malware - dynamic analysis
 
@@ -83,4 +85,4 @@ You have to create these by yourself.
 
 ## Task 4:
 
-> Implement **one** of the described tasks, and make step-by-step report (what,why and how) for what you did. Include possible source files to *src* folder.
+**Implement **one** of the described tasks, and make step-by-step report (what,why and how) for what you did. Include possible source files to *src* folder.**
