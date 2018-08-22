@@ -1,114 +1,86 @@
-# ChipWhisperer lab return template 
-
-Name ``` ```
-
-Student id ``` ```
-
-Participated in tasks ``` ```
-
-...
-
-Name ``` ```
-
-Student id ``` ```
-
-Participated in tasks ``` ```
-
-Add all your group members names and student ids. If you continue the tasks at home you can work with different people. Please mark who participated in which tasks.
-
-# Task 1
-### Inspecting power differences of operations
-
-Replace the following 3 screenshots. First screenshot should contain a picture of a power trace where you are executing nothing but 30 lines of of asm mul.
-Second should contain a screenshot of a power trace where you execute nothing but 30 lines of asm nop.
-Third should contain a power trace where you execute any amount of nops or muls. You need to execute atleast 10 lines worth of each command and in total atleast 40 lines worth of assembly code. You are not required to execute the commands in 10 line chuncks and you are allowed to execute other assembly commands besides nop and mul.  
-
-Please have your screenshots roughly in the same scale as the placeholders. If your whole trace doesn't fit to that scale then you are allowed to take a larger picture.
-X: ~800-1000 samples Y: ~0,3- -0,3
-
-#### Three blocks of asm mul operations
-![](images/esimerkkilab2.png  "Trace with 30 muls")
-#### Three blocks of asm nop operation
-![](images/esimerkkilab2.png  "Trace with 30 nops")
-#### Trace with ?????
-![](images/esimerkkilab2.png  "Your custom trace")
-
-*Explain what is happening and where*
-
-```
-Paste the code you used here. You only need to paste the asm volatile() blocks
-```
-
-### Breaking AES
-
-Explain shortly how the correlation power analysis works.
-*insert explanation here*
-
-*Insert picture of the Output vs Point plot tab below*
-![](pathtopicture "Ouput vs Point plot")
-
-# Task 2
-
-### Password bypass with power analysis
-
-```
-Paste PASSWORD_BYPASS.py here
-```
-
-![ ](images/ChipWhispererplaceholder2.png  "Screenshot of the python console after the script has correctly guessed the password")
-
-### Breaking RSA
-
-Paste screenshot of the Difference plot here
-![ ](path to picture  "Difference plot here")
-
-__Where did you take the reference sample and why?__
-
-```
-
-```
-
-__What values did you use in the attack script?__
-```
-
-```
-```
-Paste attack script here
-```
-Can your program solve key ABE3 for corresponding trace? If not, tell why it does not work. How you could fix that?
-
-```
-
-```
-
-# Task 3
-##Glitch
-**Paste the screenshot from step 7 here**
-
-![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
-
-**Paste the screenshot from step 13 here**
-
-![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
-
-**Paste the screenshot from step 17 here**
-
-![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
-
-**Paste the screenshot of Glitch Explorer showing succesful password glitch**
-
-![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
-
-```python
-Paste your script that modfies the glitch parameters
-```
-```python
-Paste your setup script
-```
-**Paste your Glitch Explorer logs to logs folder**
+# Answer template for Lab 3: Botnes and malwares
 
 
+Make a step-by-step report from what you did. (What, why and how?)
+You can use screenshots, code snippets and anything, what Markdown enables you to use. Answer at least for the questions presented in each section.
+They should be same than in actual instructions. 
 
-# Task 4
+You can add possible source files to [src](src) folder and screenshots to [img](img) folder.
+You have to create these by yourself.
 
-This tasks documentation varies depending on which versio you chose. Create your own documentation as you see fit. List here all the files that are part of your return
+*You can remove questions and just leave task numbers/letters if you want.*
+
+## Task 1: Finding traces of DDoS attack
+
+### A) At what time (in which second) there were the most requests for server? How many requests there were in that moment?
+
+ * How did you proceed?
+ * Show all possible commands you used
+ * Explain all the commands
+ * Explain theory, what is the logic behind commands(=why did you choose them in the first hand?)
+
+### B) How servers were actually loaded/burdened? There were multiple requests for server at same time of course, but some weakness of service was also exploited. Requests had some specific functionality.
+
+* What was the functionality, which was used?
+* What was the weakness/Why previous thing worked?
+
+### C) At what time attack started? With help of section B. information, you are able to give valid guess. There were actually two episodes for attacks. We want to know earlier one.
+
+* What was the time?
+* Why did you choose this time?
+
+### D) What IP address(es) hypotetically points towards controller of botnet itself?
+
+* What IP addresses(es)?
+* Why did you think, that they might belong to attacker?
+
+## Task 2: Malware - dynamic analysis
+
+### B) Dynamic analysis
+
+* Malware is connecting to some domain, which one?
+
+* Based on analysing network traffic and connections - shortly describe what malware is doing
+
+  * What it did at first with domain?
+  * After that, some kind of harmful cycle started. Can you describe it?
+  * Describe which details in result files gave required information
+
+* Compare start and end logs in memlogs folder
+
+  * What are mutexes in programs, and why are we analysing them?
+  * Which new processes were spawned?
+  * If you compare mutexes, what are they telling about the program we launched?
+  * What are differences in netscans telling?
+
+* Based on disk analysis, can you guess what files malware created? What entries in registry it edited? Why it was useful for malware to edit these entries?
+
+### C) Inspecting the server (Command & Control center)
+
+* What exact information bot got from the server?
+* Add your suitable client for receiving data into *src* folder.
+* Provide screenshot, when it is receiving data. You can put it in *img* folder.
+
+## Task 3: Malware - static analysis
+
+### A) What's the role of SteamCodeGenerator.exe, keycrack.exe and steam-dll-pro.exe?
+
+### B) How are they trying to hide their current/upcoming activites?
+
+* For example, did they edit some settings in the operating system?
+
+### C) What's the role of anti-cheat-bypass-tool.exe in Data folder?
+
+* We are particularly interested about this file.
+* This file contains actually two additional binaries. What are their names?
+* **Find a way** to reverse these files as well, and include the general purposes of these files as well to your report. Additionally:
+  * How bots were controlled? There were at least two ways, describe at least the automatic approach.
+  * Some source code or ideas of some common DDoS tools have been used in this malware. Describe three of them, and explain shortly why they are working (and why those technics are sometimes hard to prevent). It's enough to identify tools, you can look information about them elsewhere.
+  * Malware actually contains hidden GUI for DDoS tools it is using. Can you find and use it? Describe how you did it.
+
+### D) How well you were able to gather information from malware with dynamic analysis when compared to full reveal from source code? (optional question, does not affect grade)
+
+
+## Task 4:
+
+> Implement **one** of the described tasks, and make step-by-step report (what,why and how) for what you did. Include possible source files to *src* folder.

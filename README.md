@@ -9,7 +9,7 @@ This repository is meant for returning all of the tasks, what you are doing in l
 
 You will update and add all of your work here during the course.
 
-*Excluding* (Do not return) possible lecture tasks/diary here, if you are doing those. These will be returned directly to [Moodle](https://oystack.oulu.fi).
+*Excluding* (Do not return) possible lecture tasks/diary here, in case you are doing those. These will be returned directly to [Moodle](https://oystack.oulu.fi).
 
 ## How to proceed?
 
