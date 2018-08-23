@@ -1,4 +1,4 @@
-# **Answer template for Computer security lab 2: Fuzzing**
+# **Answer template for Computer security lab 1: Fuzzing**
 
 Fill in your answers to this template, answer every question. If screenshots are required, add them to "img" folder. Example of how to add images can be seen at the end of task 2.
 
