@@ -1,13 +1,8 @@
-# Network lab return
-
-**Name:** ```Fill here ```
-
-**Student number** ```Fill Here ```
+# Answer template for Lab 2: Network and websecurity
 
 ## Instructions
 
-Below is a copy of the questions found in the Network lab folder. Answer the questions here. In task 4 put the server code and the XSS-script to a different file. Also the picture and the report in task 5 can be returned as a separe files. 
-
+Below is a copy of the questions found in the Network lab folder. Answer the questions here. In task 4 put the server code and the XSS-script to a different file. Also the picture and the report in task 5 can be returned as a separe files.
 
 ### A) Basic SQL Injections
 
@@ -23,7 +18,7 @@ Explain each command/symbol you used.  Why do they cause an error?
 
 ```
  
-Paste here the command that the SQL server attempts to execute and replace the part(s) taken from the searchfield with the text "SEARCHRESULT". 
+Paste here the command that the SQL server attempts to execute and replace the part(s) taken from the searchfield with the text "SEARCHRESULT".
 ``` sql
 
 ```

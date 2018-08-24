@@ -2,7 +2,7 @@
 
 Name ``` ```
 
-Student id ``` ```
+Student ID ``` ```
 
 Participated in tasks ``` ```
 
@@ -10,11 +10,11 @@ Participated in tasks ``` ```
 
 Name ``` ```
 
-Student id ``` ```
+Student ID ``` ```
 
 Participated in tasks ``` ```
 
-Add all your group members names and student ids. If you continue the tasks at home you can work with different people. Please mark who participated in which tasks.
+Add all your group member's names and student IDs here. If you continue the tasks at home, you can work with different people. Please mark who participated in which tasks.
 
 # Task 1
 ### Inspecting power differences of operations
