@@ -7,16 +7,18 @@ Student ID:
 *Give at least above information to this file. You can remove all below if you like, and add some own general instructions/information if you like.*
 
 
-
 ## What is this repository for?
 
 
 
 This repository is meant for returning all of the tasks, what you are doing in labs. Additionally final coursework can be returned here.
 
+The actual instructions for tasks are [here.](https://github.com/CompSec-2018/CompSec)
+
+
 You will update and add all of your work here during the course.
 
-*Excluding* (Do not return) possible lecture tasks/diary here, in case you are doing those. These will be returned directly to [Moodle](https://oystack.oulu.fi).
+*Excluding* (Do not return) possible lecture questionnaires here, in case you are doing those. These will be returned directly to [Moodle](https://oystack.oulu.fi).
 
 
 
@@ -51,7 +53,7 @@ git commit -m "<message>"
 git push
 ```
 
-If you haven't edited markdown files alot [Visual studio code](https://code.visualstudio.com/) is a good free software for it. It works on Windows, Linux and Mac. It is also installed to most of the virtual machines. For help with markdown syntax check [Example.md](Example.md)
+If you have barely edited Markdown files, [Visual studio code](https://code.visualstudio.com/) is a good free software for editing and showing live preview of it. It works on Windows, Linux and Mac. It is also installed to most of the virtual machines. For help with Markdown syntax, check [Example.md](Example.md)
 ## When to proceed?
 
 There is a deadline for each lab.
@@ -68,10 +70,12 @@ This is because:
 
  * We can link correct person to correct repository (= We know, who has actually edited this repository)
 
- * There are people, who might make only lecture tasks/diary or mixing
+ * There are people, who might make only lecture questionnaire or mixing
  both (labs today, lecture tasks next week). This way we know, if everybody has done something.
 
  All of the labs are available immediately. If you want, you can do them all at once or in some mixed sections.
+
+ If you want to make ChipWhisperer lab beforehand (and it is recommended), *you can borrow the device, but it must be returned before actual lab. We need devices there.* Afterwards, devices can be borrowed again.
 
  Just take care that you have returned link before deadline, and corresponding lab of deadline has been completed here.
 
@@ -79,6 +83,6 @@ This is because:
 
 If you forgot to return link to Moodle before deadline, but your work is here before deadline, just send an email for someone of the assistans of the course.
 
-There will be sixth (6th) lab, which is meant for improving/doing missing labs. You can imporove as many labs as you want before deadline of that sixth (6th) lab.
+In fifth and sixth lab you can improve or make previous labs in addition of ChipWhisperer lab. You can imporove as many labs as you want before deadline of that sixth (6th) lab.
 
 Return link of this repository once again to Moodle, and say what have you done/improved.
