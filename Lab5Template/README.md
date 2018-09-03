@@ -36,9 +36,6 @@ X: ~800-1000 samples Y: ~0,3- -0,3
 ```
 Explain what commands are executing and where.
 ```
-```
-Paste the code you used here. You only need to paste the asm volatile() blocks
-```
 
 ### Breaking AES
 
