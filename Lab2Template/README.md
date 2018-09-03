@@ -139,7 +139,7 @@ What is the difference between these two types of attacks? How can you protect y
 
 You can complete this task in two ways. You can do the predefined task or you can suggest a task that interests you and do that. __Contact the course assistants__ and describe them what you are interested on doing/trying to do. If they say it is good you can do that as your task 4.
 
-*Return predefined task(s) here. If you chose to implement something own, you can make own folder for it if you want.*
+*Return predefined task(s) here or into separate folder. If you chose to implement something own, return them to separate folder.*
 
 
 
