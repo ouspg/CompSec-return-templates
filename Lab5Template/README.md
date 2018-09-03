@@ -69,14 +69,14 @@ __Where did you take the reference sample and why?__
 
 ```
 
-__What values did you use in the attack script?__
+__Insert your attack script here and tell which values you had to change and which modifications you had to make__
 ```
 
 ```
 ```
 Paste attack script here
 ```
-Can your program solve key ABE3 for corresponding trace? If not, tell why it does not work. How you could fix that?
+__Can your program solve key ABE3 from corresponding trace? If not, tell why it does not work. How you could fix that?__  (*You do not have to implement your answer, just tell how you would do it.*)
 
 ```
 
