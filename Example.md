@@ -52,12 +52,6 @@ Syntax tags you might need: **python, c, shell, arm(for assembly)**
 
 # Lab Exercise X: Tutorial assigment
 
-**Student name:**
-
-**Student number:**
-
-**Student email address:**
-
 
 ## Task 1
 What I did, how I did and why I did. 
