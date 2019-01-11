@@ -1,4 +1,4 @@
-# ChipWhisperer lab return template 
+# Lab 5 lab return template 
 
 Name ``` ```
 
@@ -20,31 +20,35 @@ Add all your group member's names and student IDs here. If you continue the task
 ### Inspecting power differences of operations
 
 Replace the following 3 screenshots. First screenshot should contain a picture of a power trace where you are executing nothing but 30 lines of of asm mul.
-Second should contain a screenshot of a power trace where you execute nothing but 30 lines of asm nop.
-Third should contain a power trace where you execute any amount of nops or muls. You need to execute atleast 10 lines worth of each command and in total atleast 40 lines worth of assembly code. You are not required to execute the commands in 10 line chuncks and you are allowed to execute other assembly commands besides nop and mul.  
 
-Please have your screenshots roughly in the same scale as the placeholders. If your whole trace doesn't fit to that scale then you are allowed to take a larger picture.
-X: ~800-1000 samples Y: ~0,3- -0,3
+Second should contain a screenshot of a power trace where you execute nothing but 30 lines of asm nop.
+
+Third should contain your custom power trace where you execute any amount of nops AND muls. You need to execute atleast 10 lines worth of each command and in total atleast 40 lines worth of assembly code. You are not required to execute the commands in 10 line chuncks and you can execute also any other assembly commands besides nop and mul.
+
+Please have your screenshots roughly in the same scale as the placeholders. If your whole trace doesn't fit to that scale then you can of course take a larger picture.
+
+Remember also add textual descriptions of images if they are needed.
 
 #### Three blocks of asm mul operations
 ![](images/esimerkkilab2.png  "Trace with 30 muls")
+*Example description: From sample X to Y there executes 10 Z instructions*
+
 #### Three blocks of asm nop operation
 ![](images/esimerkkilab2.png  "Trace with 30 nops")
-#### Trace with ?????
-![](images/esimerkkilab2.png  "Your custom trace")
+*Example description: From sample X to Y there executes 10 Z instructions*
 
-```
-Explain what commands are executing and where.
-```
+#### Trace with ????? (your custom set of operations)
+![](images/esimerkkilab2.png  "Your custom trace")
+*Example description: From sample X to Y there executes 10 Z instructions*
+
+
 
 ### Breaking AES
 
-Explain shortly how the correlation power analysis works.
+Explain shortly how the correlation power analysis works. Remember that your explanation should contain **at least** answers to questions that are specified in task description.
 ```
 *insert explanation here*
 ```
-*Insert picture of the Output vs Point plot tab below*
-![](images/ChipWhispererplaceholder2.png "Ouput vs Point plot")
 
 # Task 2
 
@@ -52,9 +56,10 @@ Explain shortly how the correlation power analysis works.
 
 ```
 Paste PASSWORD_BYPASS.py here
+Paste whole script or just the part(s) you modified
 ```
 
-Screenshot of the python console after the script has correctly guessed the password
+Screenshot of the python console after your script has correctly solved the password
 
 ![ ](images/ChipWhispererplaceholder2.png  "Screenshot of the python console after the script has correctly guessed the password")
 
@@ -64,22 +69,23 @@ Paste screenshot of the Difference plot here
 ![ ](images/ChipWhispererplaceholder2.png  "Difference plot here")
 
 __Where did you take the reference sample and why?__
-
+```
+*Insert explanation here*
 ```
 
-```
-
-__Insert your attack script here and tell which values you had to change and which modifications you had to make__
-```
-
-```
+__Insert your attack script here__
 ```
 Paste attack script here
 ```
-__Can your program solve key ABE3 from corresponding trace? If not, tell why it does not work. How you could fix that?__  (*You do not have to implement your answer, just tell how you would do it.*)
+
+__Paste your screenshots showing that your scripts solve correctly keys 8140 and ABE2 from corresponding traces__
+![ ](images/ChipWhispererplaceholder2.png  "Key solve screenshot here")
+![ ](images/ChipWhispererplaceholder2.png  "Key solve screenshot here")
+
+__You were asked question about solving key ABE3. Answer it here__
 
 ```
-
+*Insert your answer to question about key ABE3 here*
 ```
 
 # Task 3
