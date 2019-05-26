@@ -45,7 +45,7 @@ Remember also add textual descriptions of images if they are needed.
 
 ### Breaking AES
 
-Explain shortly how the correlation power analysis works. Remember that your explanation should contain **at least** answers to questions that are specified in task description.
+Explain how the correlation power analysis works. You may use questions given in task as template of your answer.
 ```
 *insert explanation here*
 ```
@@ -91,15 +91,15 @@ __You were asked question about solving key ABE3. Answer it here__
 # Task 3
 ## Glitch
 
-**Paste the screenshot from step 7 here**
+**Paste the screenshot from step 6 here**
 
 ![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
 
-**Paste the screenshot from step 13 here**
+**Paste the screenshot from step 12 here**
 
 ![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
 
-**Paste the screenshot from step 17 here**
+**Paste the screenshot from step 16 here**
 
 ![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
 
