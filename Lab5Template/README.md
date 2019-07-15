@@ -108,10 +108,10 @@ __You were asked question about solving key ABE3. Answer it here__
 ![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
 
 ```python
-Paste your script that modfies the glitch parameters
+Paste your attack script that modfies the glitch parameters as instructed
 ```
 ```python
-Paste your setup script
+Paste your setup script if necessary
 ```
 **Paste your Glitch Explorer logs to logs folder**
 
