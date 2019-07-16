@@ -16,6 +16,8 @@ Participated in tasks ``` ```
 
 Add all your group member's names and student IDs here. If you continue the tasks at home, you can work with different people. Please mark who participated in which tasks.
 
+If your answer contains files to upload, just create folder for task and put them there.
+
 # Task 1
 
 #### x)
@@ -23,7 +25,7 @@ Add all your group member's names and student IDs here. If you continue the task
 Find coordinates of hidden caches from browser and email from volatile memory of the machine. Explain shortly how you achieved the results.
 
 ```
-*insert coordinates, corresponding location codenames and explanation how you find them here*
+*insert coordinates, corresponding location codenames and explanation how you found them*
 ```
 
 #### x)
@@ -75,8 +77,15 @@ Insert also short explanation how you found all the messages.
 
 # Task 2
 
-TBA
+```
+*Insert your andwers here*
+*Make sure you fulfill all requirements specified in task instructions*
+```
 
 # Task 3
 
-TBA
+In this task, choose your option and make your custom documentation as you see fit.
+
+```
+*Insert your andwers here*
+```
