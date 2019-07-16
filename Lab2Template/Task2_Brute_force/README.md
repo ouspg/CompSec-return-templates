@@ -1,3 +1,3 @@
-# Brute force
+# Brute force deliverables
 
-Use this folder for brute force tasks returns. 
+Use this folder for brute force task returns.

@@ -4,26 +4,39 @@
 
 Below is a copy of the questions found in the Network lab folder. Answer the questions here. In task 4 put the server code and the XSS-script to a different file. Also the picture and the report in task 5 can be returned as a separe files.
 
-### A) Basic SQL Injections
+---
+### Basic SQL Injections
 
 **Noticing errors**
 
 
 What command(s) did you use?
-``` sql
-
-```
-Explain each command/symbol you used in your SQL command that caused the SQL error?
 ```sql
 
 ```
-Why did it cause an error?
-```sql
+Why did it cause an error? (Explain each symbol)
+```
 
 ```
  
 Paste here the command that the SQL server attempts to execute and replace the part(s) taken from the searchfield with the text "SEARCHRESULT".
-``` sql
+```sql
+
+```
+
+---
+**Deleted item?**
+
+How are the items "deleted"?
+```
+
+```
+How did you make the server to return all the items?
+```
+
+```
+Explain shortly the logic behind your attack. Why does it work?
+```
 
 ```
 ---
@@ -35,53 +48,44 @@ What command(s) did you use?
 
 ```
 Why it is working/what is happening?
-```text
-
 ```
 
----
-**Deleted item?**
-
-What SQL command did you use?
- ``` sql
-
 ```
-How are the items "deleted"?
-```
-```
-
-
-Explain shortly the logic behind your attack. Why does it work?
+What user did you login as?
 ```
 
 ```
 
+### Inspecting the client resources
 
-### B) Modification of client-side code
-
-**Admin section**
-
-
-What is the url to access administration panel? You can find page even, when you are not logged in, but information is not showed. Why this still could be considered as risk?
-```
-```
-
----
-
-**Another's basket**
-
-How did you do it? Why you were able to?
-```
-```
----
 **Scoreboard**
 
-How did you make it visible?
+How did you find the path?
 ```
+
+```
+---
+**Administration panel**
+
+What is the administration panel's URL?
 ```
 
+```
+---
+### XSS attacks
 
+**Annoying pop-up**
 
+What is the difference between these two types of attacks? How can you protect your applications against both types of attacks?
+```
+
+```
+
+**Cookie thief**
+
+*Paste a screenshot of the administration panel and netcat when the exploit is active.*
+
+---
 
 ## Task 2 
 
@@ -98,42 +102,30 @@ Explain shortly the logic behind your attack. Why and how does it work?
 
 ```
 ---
-**Earning money from the shop**
+**Cross-site request forgery**
 
-
-How did you do it?
-```
-```
+*Returns:*
+* index.html
 ---
-**Annoying pop-up**
 
-What is the difference between these two types of attacks? How can you protect your applications against both types of attacks?
-```
-```
-
-*short explanation on how you did it*  
-```
-
-```
-
-### Brute forcing
+**Brute forcing**
 
 *Returns:*
 * Wordlist
 * Any code you created.
 * Detailed description on how you created the wordlist and how you did the brute force attack.
-
+---
 
 ## Task 3
 
 
 *Returns:*
 
-* Your own server code
-* Request you send to the Juice Shop in a separate file
-* **Clear** instructions on how to start your own server, send the Cross-Site script attack and how to verify that the information was sent to your server from Juice Shop. 
-* Show your possible code files(particularly HTML/JavaScript) as unpacked or non-formatted as well.
-
+* Your own server code.
+* Your own HTML/Javascript/etc. code **without directory traversal characters in its name**.
+* The *zip* archive that you uploaded to overwrite the subtitle file.
+* **Clear** instructions on how to start your own server, send the XSS attack and how to verify that the information was sent to your server from Juice Shop.
+---
 
 ## Task 4
 
