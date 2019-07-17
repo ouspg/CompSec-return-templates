@@ -30,7 +30,7 @@ Find coordinates of hidden caches from browser and email from volatile memory of
 
 #### x)
 
-Find 2 PDF files, 2 RTF files and insert the content of them below.
+Find 2 PDF files, one RTF file and insert the content of them below.
 
 Explain shortly how you achieved your results (how you carved files, how you found decryption passwords for PDFs etc)
 
