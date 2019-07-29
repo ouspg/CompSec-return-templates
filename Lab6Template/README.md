@@ -20,7 +20,7 @@ If your answer contains files to upload, just create folder for task and put the
 
 # Task 1
 
-#### x)
+#### A)
 
 Find coordinates of hidden caches from browser and email from volatile memory of the machine. Explain shortly how you achieved the results.
 
@@ -28,7 +28,7 @@ Find coordinates of hidden caches from browser and email from volatile memory of
 *insert coordinates, corresponding location codenames and explanation how you found them*
 ```
 
-#### x)
+#### B)
 
 Find 2 PDF files, one RTF file and insert the content of them below.
 
@@ -42,7 +42,7 @@ Explain shortly how you achieved your results (how you carved files, how you fou
 *insert explanations here*
 ```
 
-#### x)
+#### C)
 
 Find 4 different hidden messages from the set of images. Insert name of image and hidden message cleartext content here.
 
