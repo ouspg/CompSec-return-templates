@@ -25,7 +25,16 @@ If your answer contains files to upload, just create folder for task and put the
 Find coordinates of hidden caches from browser and email from volatile memory of the machine. Explain shortly how you achieved the results.
 
 ```
-*insert coordinates, corresponding location codenames and explanation how you found them*
+*insert gps coordinates, corresponding location codenames and explanation how you found them*
+
+*LAKE*
+
+
+*COAST*
+
+
+*FOREST*
+
 ```
 
 #### B)
