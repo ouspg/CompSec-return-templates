@@ -42,7 +42,7 @@ You can remove all possible helper texts/questions if you want.
 ![](img/Placeholder.jpg  "Add description here")
 
 
-**What is the error and what is causing it in this program**
+**What is the error and what is causing it in this program?**
 ```
 
 ```
@@ -65,7 +65,7 @@ You can remove all possible helper texts/questions if you want.
 
 ![](img/Placeholder.jpg  "Add description here")
 
-**What do you think are the most significant pieces of information in the status screen? Why are they?**
+**What do you think are the most significant pieces of information in the status screen? Why are they important?**
 ```
 ```
 ---
