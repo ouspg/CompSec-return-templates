@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Below is a copy of the questions found in the Network lab folder. Answer the questions here. In task 4 put the server code and the XSS-script to a different file. Also the picture and the report in task 5 can be returned as a separe files.
+Below is a copy of the questions found in the Network lab folder. Answer the questions here. In task 3 put the server code and the XSS-script to a different file. Also the picture and the report in task 4 can be returned as a separe files.
 
 ---
 ### Basic SQL Injections
@@ -10,7 +10,7 @@ Below is a copy of the questions found in the Network lab folder. Answer the que
 **Noticing errors**
 
 
-What command(s) did you use?
+What did you use as the search argument to cause an error?
 ```sql
 
 ```
@@ -81,9 +81,12 @@ What is the difference between these two types of attacks? How can you protect y
 
 ```
 
-**Cookie thief**
+**Persistent XSS**
 
-*Paste a screenshot of the administration panel and netcat when the exploit is active.*
+How can you protect your applications against XSS attacks?
+```
+
+```
 
 ---
 
@@ -106,6 +109,7 @@ Explain shortly the logic behind your attack. Why and how does it work?
 
 *Returns:*
 * index.html
+
 ---
 
 **Brute forcing**
@@ -114,6 +118,7 @@ Explain shortly the logic behind your attack. Why and how does it work?
 * Wordlist
 * Any code you created.
 * Detailed description on how you created the wordlist and how you did the brute force attack.
+
 ---
 
 ## Task 3
@@ -121,7 +126,7 @@ Explain shortly the logic behind your attack. Why and how does it work?
 
 *Returns:*
 
-* Your own server code.
+* Your own server code or a description of how you showed the received data.
 * Your own HTML/Javascript/etc. code **without directory traversal characters in its name**.
 * The *zip* archive that you uploaded to overwrite the subtitle file.
 * **Clear** instructions on how to start your own server, send the XSS attack and how to verify that the information was sent to your server from Juice Shop.
