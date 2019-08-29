@@ -101,7 +101,7 @@ You can remove all possible helper texts/questions if you want.
 
 ```
 
-**Find out and explain what caused the vulnerability?**
+**What can you tell about the crash based on ASAN results and the pcap file? What is causing the vulnerability?**
 ```
 
 ```
