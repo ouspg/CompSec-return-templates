@@ -81,20 +81,6 @@ You can remove all possible helper texts/questions if you want.
 ---
 ## **Task 3**
 
-**What is the more widely recognized name for this CVE-2014-0160 vulnerability?**
-```
-
-```
-
-**What caused the vulnerability?**
-```
-
-```
-
-**Take a screenshot of the AFL/ASAN results**
-
-![](img/Placeholder.jpg  "Add description here")
-
 ### Creating your own small C-program and fuzztesting it
 
 **Provide the C-code of your program**
@@ -103,6 +89,24 @@ You can remove all possible helper texts/questions if you want.
 ```
 
 **Take a screenshot of the AddressSanitizer results after running your program with the testcases. Show at least 3 ASan outputs.**
+
+![](img/Placeholder.jpg  "Add description here")
+
+--
+
+### Fuzzing libraries
+
+**What is the more widely recognized name for this CVE-2014-0160 vulnerability?**
+```
+
+```
+
+**What can you tell about the crash based on ASAN results and the pcap file? What is causing the vulnerability?**
+```
+
+```
+
+**Take a screenshot of the AFL/ASAN results**
 
 ![](img/Placeholder.jpg  "Add description here")
 
