@@ -98,8 +98,13 @@ Insert also short explanation how you found all the messages.
 # Task 2
 
 ```
-*Insert your answers here*
-*Make sure you fulfill all requirements specified in task instructions*
+*Insert your analysis of DDoS attack here or make your custom documentation as you see fit.*
+*Make sure your analysis fulfills all requirements specified in task instructions*
+```
+
+### Flag: Hypothetical IP address of the person behind the attack
+```
+*Insert ip address and explain why you came to that conclusion*
 ```
 
 # Task 3
@@ -107,5 +112,5 @@ Insert also short explanation how you found all the messages.
 In this task, choose your option and make your custom documentation as you see fit.
 
 ```
-*Insert your answers here*
+*Insert your documentation here or return separate file*
 ```
