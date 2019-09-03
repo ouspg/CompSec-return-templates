@@ -10,7 +10,7 @@ You can add source files to [src](src) folder and screenshots to [img](img) fold
 
 You have to create src folder by yourself.
 
-*You can remove questions and just leave task numbers/letters if you want.*
+***You can remove questions and just leave task numbers/letters if you want.***
 
 **Answer to this document, and push changes to Git!**
 
@@ -57,11 +57,11 @@ You have to create src folder by yourself.
 
 
 
-## Task 2 : Arbitary code execution
+## Task 2 : Arbitrary code execution
 
 ### A) Making a simple program to open Shell.
 
-* Paste your source file here as code snippet. 
+* Paste your C - source file here as code snippet. 
 
     ```c
     My simple program
@@ -74,7 +74,6 @@ You have to create src folder by yourself.
     My assembly program
     ```
 * Describe each line(purpose) of assembly code. You can make this by adding comments to source.
-* Does x86 instruction set has advantages over x64 in some cases?
 * Describe how did you turn your assembly code to shellcode
 * Add the results of it by showing shellcode and provide screenshot of situation, where you tested the execution of it, and it worked.
 

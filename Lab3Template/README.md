@@ -8,44 +8,18 @@ They should be same than in actual instructions.
 You can add possible source files to [src](src) folder and screenshots to [img](img) folder.
 You have to create these by yourself.
 
-*You can remove questions and just leave task numbers/letters if you want.*
+***You can remove questions and just leave task numbers/letters if you want.***
 
 **Answer to this document, and push changes to Git!**
 
-## Task 1: Finding traces of DDoS attack
+You can answer with more details than questions below are suggesting and describe anything what did you find and think that it is related to malware.
 
-### A) At what time (in which second) there were the most requests for server? How many requests there were in that moment?
 
- * How did you proceed?
- * Show all possible commands you used
- 
-  ```shell
-  You can insert commands like this.
-  ```
+## Task 1: Malware - dynamic analysis
 
- * Explain the purposes of all commands in this task
- * Explain theory, what is the logic behind commands possible combination of them (=why did you choose them in the first hand?)
-
-### B) How servers were actually loaded/burdened? There were multiple requests for server at same time of course, but some weakness of service/server was also exploited. What was the weakness and what did the queries do to exploit it?
-
-* What was the functionality, which was used?
-* What was the weakness/Why previous thing worked?
-
-### C) At what time attack started? With help of section B. information, you are able to give valid guess. There were actually two episodes for attacks. We want to know earlier one.
-
-* What was the time?
-* Why did you choose this time?
-
-### D) What IP address(es) hypotetically points towards controller of botnet itself?
-
-* What IP addresses(es)?
-* Why did you think that they might belong to attacker?
-
-## Task 2: Malware - dynamic analysis
+NOTE: No need to answer  anything for A section. I was just a little tutorial for sandbox environment.
 
 ### B) Dynamic analysis
-
-
 
 * Based on analysing network traffic and connections - shortly describe what malware is doing
   * Malware is connecting to some domain, which one?
@@ -53,19 +27,38 @@ You have to create these by yourself.
   * After that, some kind of harmful cycle started. Can you describe it?
   * Describe which details in result files gave required information
 
+```
+You can insert text in here.
+```
+
 * Compare start and end logs in memlogs folder
 
   * What are mutexes in programs, and why are we analysing them?
   * Which new processes were spawned?
-  * If you compare mutexes, what are they telling about the program we launched?
+  * If you compare mutexes, what are they telling about the program we launched? 
   * What are differences in netscans telling?
+   * If you used any volatility plugins manually, did you find something else interesting?
+
+```
+You can insert text in here.
+```
+
 
 * Based on disk analysis, can you guess what files malware created? What entries in registry it edited? Why it was useful for malware to edit these entries?
+
+```
+You can insert text in here.
+```
 
 ### C) Inspecting the server (Command & Control center)
 
 * What exact information bot got from the server?
-* You can give code here or additionally put it into *src* folder.
+
+```
+You can insert text in here.
+```
+
+* You can give code/commands here for receifing traffic or additionally put it into *src* folder.
 ```python
 You can insert your code here
 ```

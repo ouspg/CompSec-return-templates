@@ -4,6 +4,8 @@
 
 Below is a copy of the questions found in the Network lab folder. Answer the questions here. In task 3 put the server code and the XSS-script to a different file. Also the picture and the report in task 4 can be returned as a separe files.
 
+Note that there is reserved folder for specific tasks.
+
 ---
 ### Basic SQL Injections
 
