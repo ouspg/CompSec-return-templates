@@ -19,31 +19,23 @@ Add all your group member's names and student IDs here. If you continue the task
 # Task 1
 ### Inspecting power differences of operations
 
-Replace the following 3 screenshots. First screenshot should contain a picture of a power trace where you are executing nothing but 30 lines of of asm mul.
+Replace the following screenshot.
 
-Second should contain a screenshot of a power trace where you execute nothing but 30 lines of asm nop.
-
-Third should contain your custom power trace where you execute any amount of nops AND muls. You need to execute atleast 10 lines worth of each command and in total atleast 40 lines worth of assembly code. You are not required to execute the commands in 10 line chuncks and you can execute also any other assembly commands besides nop and mul.
+It should contain your custom power trace where you execute any amount of nops AND muls. You need to execute atleast 10 lines worth of each command and in total atleast 40 lines worth of assembly code. You are not required to execute the commands in 10 line chuncks and you can execute also any other assembly commands besides nop and mul.
 
 Please have your screenshots roughly in the same scale as the placeholders. If your whole trace doesn't fit to that scale then you can of course take a larger picture.
 
 Remember also add textual descriptions of images if they are needed.
 
-#### Three blocks of asm mul operations
-![](images/esimerkkilab2.png  "Trace with 30 muls")
-*Example description: From sample X to Y there executes 10 Z instructions*
-
-#### Three blocks of asm nop operation
-![](images/esimerkkilab2.png  "Trace with 30 nops")
-*Example description: From sample X to Y there executes 10 Z instructions*
-
-#### Trace with ????? (your custom set of operations)
+#### Trace with your custom set of operations
 ![](images/esimerkkilab2.png  "Your custom trace")
 *Example description: From sample X to Y there executes 10 Z instructions*
 
-
-
 ### Breaking AES
+
+**Paste the screenshot of solved key here**
+
+![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
 
 Explain how the correlation power analysis works. You may use questions given in task as template of your answer.
 ```
@@ -55,67 +47,60 @@ Explain how the correlation power analysis works. You may use questions given in
 ### Password bypass with power analysis
 
 ```
-Paste PASSWORD_BYPASS.py here
+Paste your working attack script here
 Paste whole script or just the part(s) you modified
 ```
 
-Screenshot of the python console after your script has correctly solved the password
+Screenshot after your script has correctly solved the password
 
 ![ ](images/ChipWhispererplaceholder2.png  "Screenshot of the python console after the script has correctly guessed the password")
 
 ### Breaking RSA
-
-Paste screenshot of the Difference plot here
-![ ](images/ChipWhispererplaceholder2.png  "Difference plot here")
-
-__Where did you take the reference sample and why?__
-```
-*Insert explanation here*
-```
 
 __Insert your attack script here__
 ```
 Paste attack script here
 ```
 
-__Paste your screenshots showing that your scripts solve correctly keys 8140 and ABE2 from corresponding traces__
-![ ](images/ChipWhispererplaceholder2.png  "Key solve screenshot here")
+__Sceenshot demonstrating solved keys here__
+
 ![ ](images/ChipWhispererplaceholder2.png  "Key solve screenshot here")
 
-__You were asked question about solving key ABE3. Answer it here__
+__You were asked question about solving last bit of key, insert answer here__
 
 ```
-*Insert your answer to question about key ABE3 here*
+*Insert your answer to question about last key bit here*
 ```
 
 # Task 3
-## Glitch
 
-**Paste the screenshot from step 6 here**
+## A) Introduction to clock glitch attacks
+
+**Screenshots of successful glitching of the functions `glitch1()` and `glitch3()`**
+
+![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
+![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
+
+## B) Buffer glitch attack
+
+
+**Paste the screenshot of successful glitch result here**
 
 ![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
 
-**Paste the screenshot from step 12 here**
+```python
+Paste your answers to additional questions here
+```
 
-![ ](images/ChipWhispererplaceholder2.png  "Glitched terminal here")
+## C) Differential Fault Analysis on AES
 
-**Paste the screenshot from step 16 here**
-
-![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
-
-**Paste the screenshot of Glitch Explorer showing succesful password glitch**
+**Paste screenshot of successful results here**
 
 ![ ](images/ChipWhispererplaceholder1.png  "Glitch Explorer here")
 
 ```python
-Paste your attack script that modfies the glitch parameters as instructed
+Paste your answers to additional questions here
 ```
-```python
-Paste your setup script if necessary
-```
-**Paste your Glitch Explorer logs to logs folder**
-
-
 
 # Task 4
 
