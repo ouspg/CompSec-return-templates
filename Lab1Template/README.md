@@ -94,6 +94,8 @@ You can remove all possible helper texts/questions if you want.
 
 --
 
+## **Task 4** 
+
 ### Fuzzing libraries
 
 **What is the more widely recognized name for this CVE-2014-0160 vulnerability?**
@@ -112,8 +114,8 @@ You can remove all possible helper texts/questions if you want.
 
 ---
 
-## **Task 4** 
+## **Task 5** 
 
 ### Contribute to a existing open-source project. Set up a fuzzer and report whole process and possible findings.
 
-*You can fill your task 4 here, or make additional folder for it, since answer( or more likely a report) is expected to contain a lot of details.*
+*You can fill your task 5 here, or make additional folder for it, since answer( or more likely a report) is expected to contain a lot of details.*
