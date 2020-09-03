@@ -13,23 +13,21 @@ Student ID:
 
 This repository is meant for returning all of the tasks, what you are doing in labs. Additionally final coursework can be returned here.
 
-The actual instructions for tasks are [here.](https://github.com/CompSec-2019/CompSec)
+The actual instructions for tasks are [here.](https://github.com/ouspg/CompSec)
 
-
-You will update and add all of your work here during the course.
-
-*Excluding* (Do not return) possible lecture questionnaires here, in case you are doing those. These will be returned directly to [Moodle](https://moodle.oulu.fi).
-
+You will update and add all of your work on laboratory exercises into this repository during the course.
 
 
 ## How to proceed?
 
 For each lab, you have to choose:
- * Make lab assignment and add it here. Max. grade is five (5).
+ * Take the weekly exam in Moodle.
+ * Make the lab assignment, add your answers here and return link to this repository in Moodle. Max. grade is five (5).
 
  OR
 
- * Make lecture tasks/diary and return it directly to [Moodle](https://moodle..oulu.fi). Max. grade is one (1).
+ * Only take the weekly exam in Moodle. Max. grade is one (1).
+
 
 There is corresponding template for each laboratory exercise in this repository.
 
@@ -42,7 +40,7 @@ You can create folder named *img* for possible images/screenshots in each folder
 It is recommended to do as described above, but it is not required (= you can add more things if you like).
 
 
-*If you are doing lecture tasks/diary instead of corresponding lab, return it directly to Moodle.*
+*If you are taking only weekly exams instead of corresponding lab, you don't have to fill this template.*
 
 
 Check [cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) if you need a refresher on how to use Git. Some basic commands below  
@@ -61,7 +59,7 @@ When you have done the exercises of corresponding lab, you have to return link (
 
 If you reach at least 3 points/level by that deadline, you may submit your work to return box and ask for extra time to do more difficult tasks if you think that given time is not enough for more challenging tasks.
 
-In that case your work is attempted to be graded ASAP on Tuesday and if it is sufficient you will be given short feedback and extended deadline (same week Thursday 12:00, before new laboratory exercise). This offers possibility for improvements as well!
+In that case your work is attempted to be graded ASAP on Tuesday and if it is sufficient you will be given short feedback and extended deadline (same week Thursday). This offers possibility for improvements as well!
 
 Note: You can return link beforehand and edit corresponding lab still here, as long as it has been done before deadline.
 
@@ -73,8 +71,8 @@ This is because:
 
  * We can link correct person to correct repository (= We know, who has actually edited this repository)
 
- * There are people, who might make only lecture questionnaire or mixing
- both (labs today, lecture tasks next week). This way we know, if everybody has done something.
+ * There are people, who might only take weekly exams or some mix of
+ both (labs today, but only exam next week). This way we know, if everybody has done something.
 
  * Private GitHub repositories can be more accessible than one hundred zip files.
 
