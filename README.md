@@ -1,4 +1,4 @@
-# Your place for returning lab exercises/assignmets and final coursework
+# Your place for returning lab exercises/assignments and final coursework
 
 Student name:
 
@@ -10,8 +10,7 @@ Student ID:
 ## What is this repository for?
 
 
-
-This repository is meant for returning all of the tasks, what you are doing in labs. Additionally final coursework can be returned here.
+This repository is meant for returning all of the tasks, what you are doing in labs.
 
 The actual instructions for tasks are [here.](https://github.com/ouspg/CompSec)
 
@@ -21,12 +20,12 @@ You will update and add all of your work on laboratory exercises into this repos
 ## How to proceed?
 
 For each lab, you have to choose:
- * Take the weekly exam in Moodle.
+ * Take the weekly exam in the Moodle.
  * Make the lab assignment, add your answers here and return link to this repository in Moodle. Max. grade is five (5).
 
- OR
+ **OR**
 
- * Only take the weekly exam in Moodle. Max. grade is one (1).
+ * Only take the weekly exam in Moodle. All of them must be passed to pass the course.
 
 
 There is corresponding template for each laboratory exercise in this repository.
@@ -63,7 +62,7 @@ In that case your work is attempted to be graded ASAP on Tuesday and if it is su
 
 Note: You can return link beforehand and edit corresponding lab still here, as long as it has been done before deadline.
 
-In practise, if you have done all of the six (6) labs, you return this same link six (6) times for different return boxes.
+In practice, if you have done all of the six (6) labs, you return this same link six (6) times for different return boxes.
 
 This is because:
 
@@ -72,10 +71,10 @@ This is because:
  * We can link correct person to correct repository (= We know, who has actually edited this repository)
 
  * There are people, who might only take weekly exams or some mix of
- both (labs today, but only exam next week). This way we know, if everybody has done something.
+ both (labs and exam today, but only exam next week).
 
  * Private GitHub repositories can be more accessible than one hundred zip files.
 
- If you want to make ChipWhisperer lab beforehand (and it is recommended), *you can borrow the device, but it must be returned before actual lab. We need devices there.* Afterwards, devices can be borrowed again.
+ If you want to make ChipWhisperer lab beforehand (and it is recommended), *you can borrow the device, but not for infinite time!.* You might be able to borrow it again.
 
  Just take care that you have returned link before deadline, and corresponding lab of deadline has been completed here.
