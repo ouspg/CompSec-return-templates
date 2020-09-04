@@ -115,6 +115,13 @@ Include a screenshot of the final situation, when you were able to open shell.
  * Include new source code to *src* folder
  * Provide screenshot from the execution
 
-## Task 4 : A bit more advanced ROP implementation
+## Task 4 : Defeating ASLR (PIE disabled)
 
-> Implement **one** of the described tasks, and make step-by-step report (what,why and how) for what you did.
+Create step-by-step report of how you developed the exploit. This should include:
+
+* How did you read process memory using the vulnerability and how did you restore the process state after read, so it doesn't exit/segfault
+* How did you use that information to find memory addresses of libc functions/gadgets that are not in the .got.plt section, required to spawn the shell.
+* If you used debugger (e.g., gdb), explain how you used the debugger to debug the exploit.
+* Include screenshot of the exploit console output & spawned shell
+* Deliver working exploit, put the source code into the *src* folder
+* If you run into problems, describe shortly what problems did you have and how you solved them
