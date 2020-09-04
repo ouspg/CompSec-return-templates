@@ -1,4 +1,4 @@
-# Answer template for Lab 3: Botnes and malwares
+# Answer template for Lab 3: From innocent document file into part of botnet
 
 
 Make a step-by-step report from what you did. (What, why and how?)
@@ -15,75 +15,41 @@ You have to create these by yourself.
 You can answer with more details than questions below are suggesting and describe anything what did you find and think that it is related to malware.
 
 
-## Task 1: Malware - dynamic analysis
+## Task 1: 
 
-NOTE: No need to answer  anything for A section. I was just a little tutorial for sandbox environment.
-
-### B) Dynamic analysis
-
-* Based on analysing network traffic and connections - shortly describe what malware is doing
-  * Malware is connecting to some domain, which one?
-  * What it did at first with domain?
-  * After that, some kind of harmful cycle started. Can you describe it?
-  * Describe which details in result files gave required information
-
-```
-You can insert text in here.
-```
-
-* Compare start and end logs in memlogs folder
-
-  * What are mutexes in programs, and why are we analysing them?
-  * Which new processes were spawned?
-  * If you compare mutexes, what are they telling about the program we launched? 
-  * What are differences in netscans telling?
-   * If you used any volatility plugins manually, did you find something else interesting?
-
-```
-You can insert text in here.
-```
+**A) Do we find some malicious files based on these? (ClamAV, VirusTotal) Even if there are malicious files, why might not they appear there? What is the bad thing on signature based identification? Include commands and steps how you did it.**
 
 
-* Based on disk analysis, can you guess what files malware created? What entries in registry it edited? Why it was useful for malware to edit these entries?
+**B) What is the worst thing you can do with suspicious Microsoft Office document? (Disabled by default)**
 
-```
-You can insert text in here.
-```
 
-### C) Inspecting the server (Command & Control center)
+**C) Malicious PDF files are also common. How they are usually infecting the machine of potential victim?**
 
-* What exact information bot got from the server?
 
-```
-You can insert text in here.
-```
+**D) Which files are 'malicious' or doing something abnormal? What they attempt to do in general level? Are they executing some code? Include code. Include also the suspicious keywords of PDF. Include commands you used.**
 
-* You can give code/commands here for receifing traffic or additionally put it into *src* folder.
-```python
-You can insert your code here
-```
-* Provide screenshot, when it is receiving data. You can put it in *img* folder and reference here.
 
-## Task 3: Malware - static analysis
+## Task 2:
 
-### A) What's the role of SteamCodeGenerator.exe, keycrack.exe and steam-dll-pro.exe?
+**A) What attachments email had? What was the content of message. Include possible commands and steps you did.**
 
-### B) How are they trying to hide their current/upcoming activites?
+**B) What document file is attempting to do general level? Could you figure out what macro is doing?**
 
-* For example, did they edit some settings in the operating system?
+**C) Document is actually containing binary. How it is stored inside document, and how it was used? Include step(s) you did to acquire the binary.**
 
-### C) What's the role of anti-cheat-bypass-tool.exe in Data folder?
+**D) Let's take a look for this binary. *Make a brief explanation of the functionality*. How it attempts to persist in the system and evade detection? It downloads also some file, but no need to analyse that  yet, that will be handled in the next task.**
 
-* We are particularly interested about this file.
-* This file contains actually two additional binaries. What are their names?
+## Task 3:
+
+* Make general level analysis of the file. As a tip, it attempts to make user part of botnet
+* This file contains actually two additional binaries. What are their names? How did you got them?
 * **Find a way** to reverse these files as well, and include the general purposes of these files as well to your report. Additionally:
   * How bots were controlled? There were at least two ways, describe at least the automatic approach.
   * Some source code or ideas of some common DDoS tools have been used in this malware. Describe three of them. It's enough to identify tools, you can look information about them elsewhere.
   * Malware actually contains hidden GUI for DDoS tools it is using. Can you find and use it? Describe how you did it.
 
-### D) How well you were able to gather information from malware with dynamic analysis when compared to full reveal from source code? (optional question, does not affect grade)
 
 
 ## Task 4:
 
-**Implement **one** of the described tasks, and make step-by-step report (what, why and how) for what you did. Include possible source files to *src* folder.**
+**Make step-by-step report (what, why and how) for what you did. Include possible source and configuration files as well.**
