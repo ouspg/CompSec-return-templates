@@ -17,7 +17,7 @@ You can answer with more details than questions below are suggesting and describ
 
 ## Task 1: 
 
-**A) Do we find some malicious files based on these? (ClamAV, VirusTotal) Even if there are malicious files, why might not they appear there? What is the bad thing on signature based identification? Include commands and steps how you did it.**
+**A) Do we find some malicious files based on these? (ClamAV, VirusTotal) Even if there are malicious files, why might not they appear there? What is the downside on signature based identification? Include commands and steps how you did it.**
 
 
 **B) What is the worst thing you can do with suspicious Microsoft Office document? (Disabled by default)**
@@ -37,7 +37,7 @@ You can answer with more details than questions below are suggesting and describ
 
 **C) Document is actually containing binary. How it is stored inside document, and how it was used? Include step(s) you did to acquire the binary.**
 
-**D) Let's take a look for this binary. *Make a brief explanation of the functionality*. How it attempts to persist in the system and evade detection? It downloads also some file, but no need to analyse that  yet, that will be handled in the next task.**
+**D) Let's take a look at this binary. *Make a brief explanation of the functionality*. How it attempts to persist in the system and evade detection? It downloads also some file, but no need to analyse that  yet, that will be handled in the next task.**
 
 ## Task 3:
 
@@ -47,7 +47,6 @@ You can answer with more details than questions below are suggesting and describ
   * How bots were controlled? There were at least two ways, describe at least the automatic approach.
   * Some source code or ideas of some common DDoS tools have been used in this malware. Describe three of them. It's enough to identify tools, you can look information about them elsewhere.
   * Malware actually contains hidden GUI for DDoS tools it is using. Can you find and use it? Describe how you did it.
-
 
 
 ## Task 4:
