@@ -10,10 +10,14 @@ You can remove all possible helper texts/questions if you want.
 
 ### Generating mutated test cases with Radamsa
 
+### A)
+
 **Provide the command line you used to do this.**
 ```
 
 ```
+
+### B)
 
 **Provide the content of 2 different samples that radamsa created**
 ```
@@ -29,7 +33,7 @@ You can remove all possible helper texts/questions if you want.
 
 ## Task 2
 
-### Analyzing a C-program with AddressSanitizer
+### A) Analyzing a C-program with AddressSanitizer
 
 
 **Command line used to compile the program**
@@ -49,7 +53,7 @@ You can remove all possible helper texts/questions if you want.
 
 ---
 
-### Fuzzing with AFL
+### B) Fuzzing with AFL
 
 **Command line used to configure unrtf**
 ```
@@ -69,7 +73,7 @@ You can remove all possible helper texts/questions if you want.
 ```
 ```
 ---
-### Reproducing crashes with Valgrind
+### C) Reproducing crashes with Valgrind
 
 **Take a screenshot of the Valgrind result after running a testcase succesfully**
 
