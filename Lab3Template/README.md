@@ -6,7 +6,7 @@ You can use screenshots, code snippets and anything that Markdown enables you to
 Answer at least for the questions presented in the instructions.
 
 You can add possible source files to [src](src) folder and screenshots to [img](img) folder.
-You have to create these by yourself.
+You have to create these folders by yourself.
 
 
 **Answer to this document, and push changes to Git!**
@@ -15,11 +15,11 @@ You can answer with more details than questions are suggesting, which is highly 
 
 ## Task 1: 
 
-Answer at least for the bolded questions in every section (A-D).
-Include possible commands and relevant output.
+Answer at least for the bolded questions in every section (A-D) from the instruction repository.
+Include possible commands and relevant output. You can see *some examples* below.
 
 
-### Task 1A)
+### Task 1A) How I print Hello, World! in Python?
 
 Example code block for Python highlighting:
 
@@ -56,7 +56,7 @@ print("This is an example code.")
 
 Answer at least for the questions provided in the end of this task.
 Include possible commands and relevant output. 
-A bit more writing is expected, that you can describe how malware is working as whole.
+A bit more writing is expected, that you can describe how malware is working as a whole.
 
 ## Task 4:
 
