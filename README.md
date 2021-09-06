@@ -1,4 +1,4 @@
-# Your place for returning lab exercises/assignments and final coursework
+# Your place for returning lab exercises/assignments
 
 Student name:
 
