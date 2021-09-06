@@ -16,26 +16,26 @@ You can answer with more details than questions are suggesting, which is highly 
 ## Task 1: 
 
 Answer at least for the bolded questions in every section (A-D) from the instruction repository.
-Include possible commands and relevant output. You can see *some examples* below.
+**Include possible commands and relevant output.** You can see some examples below.
 
 
-### Task 1A) How I print Hello, World! in Python?
+### Task 1A) How I print "Hello, World!" in Python?
 
-Example code block for Python highlighting:
+Example code block with Python highlighting:
 
 ```python
 # In Python syntax
 print("Hello, World!")
 ```
 
-### Task 1B)
+### Task 1B) How I print "Hello" 9 times in bash?
 
 Example command in console format:
 ```console
 $ for j in {1..9};do echo "Hello $j";done
 ```
 
-### Task 1...)
+### Task 1...) ...
 
 ```
 ...
@@ -56,7 +56,7 @@ print("This is an example code.")
 
 Answer at least for the questions provided in the end of this task.
 Include possible commands and relevant output. 
-A bit more writing is expected, that you can describe how malware is working as a whole.
+A bit more writing is expected that you can describe how malware is working as a whole.
 
 ## Task 4:
 
