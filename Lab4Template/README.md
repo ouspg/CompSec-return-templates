@@ -4,7 +4,7 @@ Make a step-by-step report from what you did. (What, why and how?)
 You can use screenshots, code snippets and anything, what Markdown enables you to use. 
 
 Answer at least for the questions presented here in each section.
-They should be same than in actual instructions, but bit more precise.
+They should be same than in actual instructions, but bit more precise. *If there is confusion, use the instructions repository as it is always up-to-date.*
 
 You can add source files to [src](src) folder and screenshots to [img](img) folder. Source files can be shown alternatively just as code snippets.
 
