@@ -15,29 +15,34 @@ You can answer with more details than questions are suggesting, which is highly 
 
 ## Task 1: 
 
-Answer at least for the bolded questions in every section (A-D) from the instruction repository.
-**Include possible commands and relevant output.** You can see some examples below.
+Answer at least for the bolded questions  (A-D) from the instruction repository.
+**Include possible commands and relevant output.** 
+You should analyse every file and take them to account on your final conclusions.
 
 
-### Task 1A) How I print "Hello, World!" in Python?
+### A) Have files been identified already? Do we find some malicious files based on these tools? Even if there are malicious files, why might they not appear in there? What is the bad thing about signature based identification?
 
-Example code block with Python highlighting:
+Include the commands you used for analysing the files.
 
-```python
-# In Python syntax
-print("Hello, World!")
-```
-
-### Task 1B) How I print "Hello" 9 times in bash?
-
-Example command in console format:
 ```console
-$ for j in {1..9};do echo "Hello $j";done
+...
 ```
 
-### Task 1...) ...
+### B) What is the worst thing you can do with a suspicious Microsoft Office document? (Disabled by default) 
 
+```console
+...
 ```
+
+### C) Malicious PDF files are also common. How are they usually infecting the machine of the potential victim?
+
+```console
+...
+```
+
+### D) One of the PDF - and .doc files is "malicious". Which files might seem to do something abnormal? What do they attempt to do on a general level? Are they executing some code? Include code. Include also the suspicious keywords of PDF.
+
+```console
 ...
 ```
 
