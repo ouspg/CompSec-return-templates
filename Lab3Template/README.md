@@ -22,7 +22,6 @@ You should analyse every file and take them to account on your final conclusions
 
 ### A) Have files been identified already? Do we find some malicious files based on these tools? Even if there are malicious files, why might they not appear in there? What is the bad thing about signature based identification?
 
-Include the commands you used for analysing the files.
 
 ```console
 ...
@@ -40,7 +39,7 @@ Include the commands you used for analysing the files.
 ...
 ```
 
-### D) One of the PDF - and .doc files is "malicious". Which files might seem to do something abnormal? What do they attempt to do on a general level? Are they executing some code? Include code. Include also the suspicious keywords of PDF.
+### D) One of the PDF and .doc files is "malicious". Which files might seem to do something abnormal? What do they attempt to do on a general level? Are they executing some code? Include code. Include also the suspicious keywords of PDF.
 
 ```console
 ...
@@ -50,10 +49,24 @@ Include the commands you used for analysing the files.
 
 Make a report from *your workflow in this task*. Include possible commands and relevant output. Reason your steps to finally find the first and second executable binary file.
 
-**Answer at least for the bolded questions in the task!**
+**Answer at least for the bolded questions in the task:**
 
-```python
-print("This is an example code.")
+### Email had a document file as an attachment. How does it look like? Macros again, are they executed automatically?
+
+```console
+...
+```
+
+### What shell commands macro was executing? Could you shortly describe the idea of carrying the malware and commands? Can we acquire this dropped executable from the document file?
+
+```console
+...
+```
+
+### What is this executable doing? How it is trying to persist in the system? Is it dropping even more files?
+
+```console
+...
 ```
 
 
