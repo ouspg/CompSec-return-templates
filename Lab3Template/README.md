@@ -20,7 +20,7 @@ Answer at least for the bolded questions  (A-D) from the instruction repository.
 You should analyse every file and take them to account on your final conclusions.
 
 
-### A) Have files been identified already? Do we find some malicious files based on these tools? Even if there are malicious files, why might they not appear in there? What is the bad thing about signature based identification?
+### A) Have files been identified already? Do we find some malicious files based on these tools? Even if there are malicious files, why might they not appear there? What is the disadvantage of using signature-based identification?
 
 
 ```console
